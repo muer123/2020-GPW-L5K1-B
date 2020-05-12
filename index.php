@@ -62,16 +62,15 @@
 </head>
 
 <body>
-
+   
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="index.php"><img class="main-logo" src="img/logo.png" alt="" /></a>
-                <strong><img src="img/logosn.png" alt="" /></strong>
-            </div>
-			<div class="nalika-profile">
+                <a href="index.html"><img class="main-logo" src="img/logo.png" alt="" /></a>
+                <strong><img src="img/logo/logosn.png" alt="" /></strong>            </div>
+	  <div class="nalika-profile">
 				<div class="profile-dtl">
-					<a href="#"><img src="img/profile.png" alt="" /></a>
+					<a href="#"><img src="img/notification/4.jpg" alt="" /></a>
 					<h2>Enemy <span class="min-dtn">Yee</span></h2>
 				</div>
 				<div class="profile-social-dtl">
@@ -88,49 +87,49 @@
                         <li class="active">
                             <a class="has-arrow" href="index.php">
 								   <i class="icon nalika-home icon-wrap"></i>
-								   <span class="mini-click-non">Dashboard</span>
-								</a>
-                           <li>
-                            <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Ticket Information</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                        <li><a title="Ticket List" href="ticket-list.php"><span class="mini-sub-pro">Ticket List</span></a></li>
-                    <li><a title="Ticket Edit" href="ticket-edit.php"><span class="mini-sub-pro">Ticket Edit</span></a></li>
-                <li><a title="Ticket Detail" href="ticket-detail.php"><span class="mini-sub-pro">Ticket Detail</span></a></li>
-            <li><a title="Ticket Cart" href="ticket-cart.php"><span class="mini-sub-pro">Ticket Cart</span></a></li>
-                <li><a title="Ticket Payment" href="ticket-payment.php"><span class="mini-sub-pro">Ticket Payment</span></a></li>
-                    <li><a title="Analytics" href="analytics.php"><span class="mini-sub-pro">Analytics</span></a></li>
-                        </ul>
-                           </li>   
-                              </ul>
-                    
-                        <li>
-                            <a class="has-arrow" href="mailbox.php" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Email</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Inbox" href="mailbox.php"><span class="mini-sub-pro">Inbox</span></a></li>
-                                <li><a title="View Mail" href="maibox-view.php"><span class="mini-sub-pro">View Mail</span></a></li>
-                                <li><a title="Compose Mail" href="mailbox-compose.php"><span class="mini-sub-pro">Compose Mail</span></a></li>
+								   <span class="mini-click-non">Ecommerce</span>								</a>
+                            <ul class="submenu-angle" aria-expanded="true">
+                                <li><a title="Dashboard" href="index.php"><span class="mini-sub-pro">Dashboard</span></a></li>
+                                <li><a title="Product List" href="product-list.html"><span class="mini-sub-pro">Ticket List</span></a></li>
+                                <li><a title="Product Edit" href="product-edit.html"><span class="mini-sub-pro">Ticket Edit</span></a></li>
+                                <li><a title="Product Detail" href="product-detail.html"><span class="mini-sub-pro">Ticket Detail</span></a></li>
+                                <li><a title="Product Cart" href="product-cart.html"><span class="mini-sub-pro">Ticket Cart</span></a></li>
+                                <li><a title="Product Payment" href="product-payment.html"><span class="mini-sub-pro">Ticket Payment</span></a></li>
+                                <li><a title="Analytics" href="analytics.html"><span class="mini-sub-pro">Analytics</span></a></li>
                             </ul>
                         </li>
-                    
+                         
+                        <li>
+                            <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Mailbox</span></a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                                <li><a title="Inbox" href="mailbox.html"><span class="mini-sub-pro">Inbox</span></a></li>
+                                <li><a title="View Mail" href="mailbox-view.html"><span class="mini-sub-pro">View Mail</span></a></li>
+                                <li><a title="Compose Mail" href="mailbox-compose.html"><span class="mini-sub-pro">Compose Mail</span></a></li>
+                            </ul>
+                        </li>
+                  
                         <li>
                             <a class="has-arrow" href="charts.php" aria-expanded="false"><i class="icon nalika-bar-chart icon-wrap"></i> <span class="mini-click-non">Charts</span></a>
                         </li>
-                    
                         <li>
-                            <a class="has-arrow" href="calendar.php" aria-expanded="false"><i class="icon nalika-table icon-wrap"></i> <span class="mini-click-non">Calendar</span></a>
+                            <a class="has-arrow" href="" aria-expanded="false"><i class="icon nalika-table icon-wrap"></i> <span class="mini-click-non">Data Tables</span></a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                                <li><a title="Peity Charts" href="static-table.html"><span class="mini-sub-pro">Static Table</span></a></li>
+                                <li><a title="Data Table" href="data-table.html"><span class="mini-sub-pro">Data Table</span></a></li>
+                            </ul>
                         </li>
-                    </nav>        
-                 </div>
-             </nav>
-         </div>
-    
+                  </ul>
+                </nav>
+            </div>
+        </nav>
+    </div>
     <!-- Start Welcome area -->
     <div class="all-content-wrapper">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="logo-pro">
-                        <a href="index.php"><img class="main-logo" src="img/logo.png" alt="" /></a>
+                        <a href="index.html"><img class="main-logo" src="img/logo.png" alt="" /></a>
                     </div>
                 </div>
             </div>
@@ -150,7 +149,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
-                                        <div class="header-top-menu tabl-d-n">
+                                        <div class="header-top-menu tabl-d-n hd-search-rp">
                                             <div class="breadcome-heading">
 												<form role="search" class="">
 													<input type="text" placeholder="Search..." class="form-control">
@@ -161,24 +160,144 @@
                                     </div>
                                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                         <div class="header-right-info">
-                                            <ul class="nav navbar-nav mai-top-nav header-right-menu">                                  
-        
+                                            <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                <li class="nav-item dropdown">
+                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="icon nalika-mail" aria-hidden="true"></i><span class="indicator-ms"></span></a>
+                                                    <div role="menu" class="author-message-top dropdown-menu animated zoomIn">
+                                                        <div class="message-single-top">
+                                                            <h1>Message</h1>
+                                                        </div>
+                                                        <ul class="message-menu">
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="message-img">
+                                                                        <img src="img/contact/1.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="message-content">
+                                                                        <span class="message-date">16 Sept</span>
+                                                                        <h2>Advanda Cro</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="message-img">
+                                                                        <img src="img/contact/4.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="message-content">
+                                                                        <span class="message-date">16 Sept</span>
+                                                                        <h2>Sulaiman din</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="message-img">
+                                                                        <img src="img/contact/3.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="message-content">
+                                                                        <span class="message-date">16 Sept</span>
+                                                                        <h2>Victor Jara</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="message-img">
+                                                                        <img src="img/contact/2.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="message-content">
+                                                                        <span class="message-date">16 Sept</span>
+                                                                        <h2>Victor Jara</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="message-view">
+                                                            <a href="#">View All Messages</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="icon nalika-alarm" aria-hidden="true"></i><span class="indicator-nt"></span></a>
+                                                    <div role="menu" class="notification-author dropdown-menu animated zoomIn">
+                                                        <div class="notification-single-top">
+                                                            <h1>Notifications</h1>
+                                                        </div>
+                                                        <ul class="notification-menu">
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="notification-icon">
+                                                                        <i class="icon nalika-tick" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="notification-content">
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Advanda Cro</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="notification-icon">
+                                                                        <i class="icon nalika-cloud" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="notification-content">
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Sulaiman din</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="notification-icon">
+                                                                        <i class="icon nalika-folder" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="notification-content">
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Victor Jara</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="notification-icon">
+                                                                        <i class="icon nalika-bar-chart" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="notification-content">
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Victor Jara</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="notification-view">
+                                                            <a href="#">View All Notification</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-															<i class="icon nalika-user nalika-user-rounded header-riht-inf" aria-hidden="true"></i>
-															<span class="admin-name">Enemy Yee</span>
-															<i class="icon nalika-down-arrow nalika-angle-dw nalika-icon"></i>
+															<i class="icon nalika-user"></i>
+															<span class="admin-name">Advanda Cro</span>
+															<i class="icon nalika-down-arrow nalika-angle-dw"></i>
 														</a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                        <li><a href="register.php"><span class="icon nalika-home author-log-ic"></span>Register</a>
+                                                        <li><a href="register.html"><span class="icon nalika-home author-log-ic"></span> Register</a>
                                                         </li>
                                                         <li><a href="#"><span class="icon nalika-user author-log-ic"></span> My Profile</a>
                                                         </li>
-                                                        <li><a href="lock.php"><span class="icon nalika-diamond author-log-ic"></span> Lock</a>
+                                                        <li><a href="lock.html"><span class="icon nalika-diamond author-log-ic"></span> Lock</a>
                                                         </li>
                                                         <li><a href="#"><span class="icon nalika-settings author-log-ic"></span> Settings</a>
                                                         </li>
-                                                        <li><a href="login.php"><span class="icon nalika-unlocked author-log-ic"></span> Log Out</a>
+                                                        <li><a href="login.html"><span class="icon nalika-unlocked author-log-ic"></span> Log Out</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -194,98 +313,7 @@
                                                             </li>
                                                         </ul>
 
-                                                        <div class="tab-content custom-bdr-nt">
-                                                            <div id="Notes" class="tab-pane fade in active">
-                                                                <div class="notes-area-wrap">
-                                                                    <div class="note-heading-indicate">
-                                                                        <h2><i class="icon nalika-chat"></i> Latest News</h2>
-                                                                        <p>You have 6 New News.</p>
-                                                                    </div>
-                                                                    <div class="notes-list-area notes-menu-scrollbar">
-                                                                        <ul class="notes-menu-list">
-                                                                            <li>
-                                                                                <a href="#">
-                                                                                    <div class="notes-list-flow">
-                                                                                        <div class="notes-img">
-                                                                                            <img src="img/news/1.png" alt="" />
-                                                                                        </div>
-                                                                                        <div class="notes-content">
-                                                                                            <p> Play chengdu, get in the car! Chengdu's first night sightseeing route is officially in operation.</p>
-                                                                                            <span>2 hours ago</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </li>
-                                                                            <li>
-                                                                                <a href="#">
-                                                                                    <div class="notes-list-flow">
-                                                                                        <div class="notes-img">
-                                                                                            <img src="img/news/2.jpg" alt="" />
-                                                                                        </div>
-                                                                                        <div class="notes-content">
-                                                                                            <p> Chengdu bus jincheng sightseeing line 3, line 4 will be launched on April 28!</p>
-                                                                                            <span>5 hours ago</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </li>
-                                                                            <li>
-                                                                                <a href="#">
-                                                                                    <div class="notes-list-flow">
-                                                                                        <div class="notes-img">
-                                                                                            <img src="img/news/3.png" alt="" />
-                                                                                        </div>
-                                                                                        <div class="notes-content">
-                                                                                            <p> Attention! Road construction from chengdu bus 6, 165, 899, 1084 road temporary adjustment.</p>
-                                                                                            <span>7 hours ago</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </li>
-                                                                            <li>
-                                                                                <a href="#">
-                                                                                    <div class="notes-list-flow">
-                                                                                        <div class="notes-img">
-                                                                                            <img src="img/news/3.png" alt="" />
-                                                                                        </div>
-                                                                                        <div class="notes-content">
-                                                                                            <p> Chengdu's first night tour bus connects 16 night landmarks.</p>
-                                                                                            <span>12 hours ago</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </li>
-                                                                            <li>
-                                                                                <a href="#">
-                                                                                    <div class="notes-list-flow">
-                                                                                        <div class="notes-img">
-                                                                                            <img src="img/news/1.png" alt="" />
-                                                                                        </div>
-                                                                                        <div class="notes-content">
-                                                                                            <p> A simple chengdu words tell a warm chengdu story.</p>
-                                                                                            <span>16 hours ago</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </li>
-                                                                            <li>
-                                                                                <a href="#">
-                                                                                    <div class="notes-list-flow">
-                                                                                        <div class="notes-img">
-                                                                                            <img src="img/news/1.png" alt="" />
-                                                                                        </div>
-                                                                                        <div class="notes-content">
-                                                                                            <p> Vintage "trolley cars" appear on the streets of chengdu.</p>
-                                                                                            <span>Yesterday 2:45 pm</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div id="Projects" class="tab-pane fade">
+                                                        <div id="Projects" class="tab-pane fade">
                                                                 <div class="projects-settings-wrap">
                                                                     <div class="note-heading-indicate">
                                                                         <h2><i class="icon nalika-happiness"></i> Recent Activity</h2>
@@ -482,13 +510,12 @@
                                                                                 </div>
                                                                             </div>
                                                                         </li>
-                                                                    </ul>
-
+                                                                    </ul> 
+                                                                    
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
+                                                       </div>
+                                                  </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -497,8 +524,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Mobile Menu end -->
+                
             <div class="breadcome-area">
                 <div class="container-fluid">
                     <div class="row">
@@ -512,7 +538,7 @@
 											</div>
 											<div class="breadcomb-ctn">
 												<h2>Dashboard</h2>
-												<p>Welcome to CBC<span class="bread-ntd"></span></p>
+												<p>Welcome to CBC <span class="bread-ntd">Management System</span></p>
 											</div>
 										</div>
                                     </div>
@@ -609,7 +635,7 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <div class="caption pro-sl-hd">
-                                            <span class="caption-subject text-uppercase"><b>Products Sales</b></span>
+                                            <span class="caption-subject text-uppercase"><b>Product Sales</b></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -624,7 +650,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="sparklinehome" class="sparkline-container">Loading..</div>
+                            <div id="curved-line-chart" class="flot-chart-sts flot-chart curved-chart-statistic"></div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
@@ -673,53 +699,183 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="white-box tranffic-als-inner">
-                            <h3 class="box-title"><small class="pull-right m-t-10 last-month-sc cl-one"><i class="fa fa-sort-asc"></i> 12% last month</small> Income</h3>
+                            <h3 class="box-title"><small class="pull-right m-t-10 text-success last-month-sc cl-one"><i class="fa fa-sort-asc"></i> 18% last month</small> Site Traffic</h3>
                             <div class="stats-row">
                                 <div class="stat-item">
                                     <h6>Overall Growth</h6>
-                                    <b>30.40%</b></div>
+                                    <b>80.40%</b></div>
                                 <div class="stat-item">
                                     <h6>Montly</h6>
-                                    <b>13.40%</b></div>
+                                    <b>15.40%</b></div>
                                 <div class="stat-item">
                                     <h6>Day</h6>
-                                    <b>3.50%</b></div>
+                                    <b>5.50%</b></div>
                             </div>
                             <div id="sparkline8"></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="white-box tranffic-als-inner res-mg-t-30">
-                            <h3 class="box-title"><small class="pull-right m-t-10 last-month-sc cl-two"><i class="fa fa-sort-desc"></i> 10% last month</small> Foods</h3>
+                            <h3 class="box-title"><small class="pull-right m-t-10 text-danger last-month-sc cl-two"><i class="fa fa-sort-desc"></i> 18% last month</small>Site Traffic</h3>
                             <div class="stats-row">
                                 <div class="stat-item">
                                     <h6>Overall Growth</h6>
-                                    <b>17.80%</b></div>
+                                    <b>80.40%</b></div>
                                 <div class="stat-item">
                                     <h6>Montly</h6>
-                                    <b>7.10%</b></div>
+                                    <b>15.40%</b></div>
                                 <div class="stat-item">
                                     <h6>Day</h6>
-                                    <b>2.30%</b></div>
+                                    <b>5.50%</b></div>
                             </div>
                             <div id="sparkline9"></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="white-box tranffic-als-inner res-mg-t-30">
-                            <h3 class="box-title"><small class="pull-right m-t-10 last-month-sc cl-three"><i class="fa fa-sort-asc"></i> 18% last month</small> Tickets</h3>
+                            <h3 class="box-title"><small class="pull-right m-t-10 text-success last-month-sc cl-three"><i class="fa fa-sort-asc"></i> 18% last month</small>Site Traffic</h3>
                             <div class="stats-row">
                                 <div class="stat-item">
                                     <h6>Overall Growth</h6>
-                                    <b>37.90%</b></div>
+                                    <b>80.40%</b></div>
                                 <div class="stat-item">
                                     <h6>Montly</h6>
-                                    <b>16.60%</b></div>
+                                    <b>15.40%</b></div>
                                 <div class="stat-item">
                                     <h6>Day</h6>
-                                    <b>6.30%</b></div>
+                                    <b>5.50%</b></div>
                             </div>
                             <div id="sparkline10"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-new-list-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-new-trend mg-t-30">
+                            <a href="#"><img src="img/new-product/5.png" alt=""></a>
+                            <div class="overlay-content">
+                                <a href="#">
+                                    <h2>$280</h2>
+                                </a>
+                                <a href="#" class="btn-small">Now</a>
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a data-toggle="tooltip" title="Shopping" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tooltip" title="Quick view" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a class="pro-tlt" href="#">
+                                    <h4>Princes Diamond</h4>
+                                </a>
+                                <div class="pro-rating">
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="icon nalika-half-filled-rating-star color"></i>
+                                    <i class="icon nalika-half-filled-rating-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-new-trend mg-t-30">
+                            <a href="#"><img src="img/new-product/5.png" alt=""></a>
+                            <div class="overlay-content">
+                                <a href="#">
+                                    <h2>$280</h2>
+                                </a>
+                                <a href="#" class="btn-small">Now</a>
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a data-toggle="tooltip" title="Shopping" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tooltip" title="Quick view" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="#">
+                                    <h4>Princes Diamond</h4>
+                                </a>
+                                <div class="pro-rating">
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="icon nalika-half-filled-rating-star color"></i>
+                                    <i class="icon nalika-half-filled-rating-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-new-trend mg-t-30">
+                            <a href="#"><img src="img/new-product/5.png" alt=""></a>
+                            <div class="overlay-content">
+                                <a href="#">
+                                    <h2>$280</h2>
+                                </a>
+                                <a href="#" class="btn-small">Now</a>
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a data-toggle="tooltip" title="Shopping" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tooltip" title="Quick view" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="#">
+                                    <h4>Princes Diamond</h4>
+                                </a>
+                                <div class="pro-rating">
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="icon nalika-half-filled-rating-star color"></i>
+                                    <i class="icon nalika-half-filled-rating-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-new-trend mg-t-30">
+                            <a href="#"><img src="img/new-product/5.png" alt=""></a>
+                            <div class="overlay-content">
+                                <a href="#">
+                                    <h2>$280</h2>
+                                </a>
+                                <a href="#" class="btn-small">Now</a>
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a data-toggle="tooltip" title="Shopping" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tooltip" title="Quick view" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="#">
+                                    <h4>Princes Diamond</h4>
+                                </a>
+                                <div class="pro-rating">
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="icon nalika-half-filled-rating-star color"></i>
+                                    <i class="icon nalika-half-filled-rating-star"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -778,7 +934,86 @@
                 </div>
             </div>
         </div>
-        
+        <div class="author-area-pro">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="personal-info-wrap">
+                            <div class="widget-head-info-box">
+                                <div class="persoanl-widget-hd">
+                                    <h2>Jon Royita</h2>
+                                    <p>Founder of Uttara It Park</p>
+                                </div>
+                                <img src="img/notification/5.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                <div class="social-widget-result">
+                                    <span>100 Tweets</span> |
+                                    <span>350 Following</span> |
+                                    <span>610 Followers</span>
+                                </div>
+                            </div>
+                            <div class="widget-text-box">
+                                <h4>Jhon Royita</h4>
+                                <p>To all the athaists attacking me right now, I can't make you believe in God, you have to have faith.</p>
+                                <div class="text-right like-love-list">
+                                    <a class="btn btn-xs btn-white"><i class="fa fa-thumbs-up"></i> Like </a>
+                                    <a class="btn btn-xs btn-primary"><i class="fa fa-heart"></i> Love</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="author-widgets-single res-mg-t-30">
+                            <div class="author-wiget-inner">
+                                <div class="perso-img">
+                                    <img src="img/notification/6.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                </div>
+                                <div class="persoanl-widget-hd persoanl1-widget-hd">
+                                    <h2>Fire Foxy</h2>
+                                    <p>Founder of Uttara It House</p>
+                                </div>
+                                <div class="social-widget-result social-widget1-result">
+                                    <span>100 Tweets</span> |
+                                    <span>350 Following</span> |
+                                    <span>610 Followers</span>
+                                </div>
+                            </div>
+                            <div class="widget-text-box">
+                                <h4>Fire Foxy</h4>
+                                <p>To all the athaists attacking me right now, I can't make you believe in God, you have to have faith.</p>
+                                <div class="text-right like-love-list">
+                                    <a class="btn btn-xs btn-white"><i class="fa fa-thumbs-up"></i> Like </a>
+                                    <a class="btn btn-xs btn-primary"><i class="fa fa-heart"></i> Love</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="personal-info-wrap personal-info-ano res-mg-t-30">
+                            <div class="widget-head-info-box">
+                                <div class="persoanl-widget-hd">
+                                    <h2>Jon Royita</h2>
+                                    <p>Founder of Uttara It Park</p>
+                                </div>
+                                <img src="img/contact/2.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                <div class="social-widget-result">
+                                    <span>100 Tweets</span> |
+                                    <span>350 Following</span> |
+                                    <span>610 Followers</span>
+                                </div>
+                            </div>
+                            <div class="widget-text-box">
+                                <h4>Jhon Royita</h4>
+                                <p>To all the athaists attacking me right now, I can't make you believe in God, you have to have faith.</p>
+                                <div class="text-right like-love-list">
+                                    <a class="btn btn-xs btn-white"><i class="fa fa-thumbs-up"></i> Like </a>
+                                    <a class="btn btn-xs btn-primary"><i class="fa fa-heart"></i> Love</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="calender-area mg-tb-30">
             <div class="container-fluid">
                 <div class="row">
@@ -791,6 +1026,7 @@
             </div>
         </div>
     </div>
+ </div>
 
     <!-- jquery
 		============================================ -->
