@@ -66,11 +66,11 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="index.html"><img class="main-logo" src="img/logo.png" alt="" /></a>
-                <strong><img src="img/logo/logosn.png" alt="" /></strong>            </div>
+                <a href="index.php"><img class="main-logo" src="img/log.png" alt="" /></a>
+                <strong><img src="img/logosn.png" alt="" /></strong>            </div>
 	  <div class="nalika-profile">
 				<div class="profile-dtl">
-					<a href="#"><img src="img/notification/4.jpg" alt="" /></a>
+					<a href="#"><img src="img/head4.jpg" alt="" /></a>
 					<h2>Enemy <span class="min-dtn">Yee</span></h2>
 				</div>
 				<div class="profile-social-dtl">
@@ -90,21 +90,21 @@
 								   <span class="mini-click-non">Ecommerce</span>								</a>
                             <ul class="submenu-angle" aria-expanded="true">
                                 <li><a title="Dashboard" href="index.php"><span class="mini-sub-pro">Dashboard</span></a></li>
-                                <li><a title="Product List" href="product-list.html"><span class="mini-sub-pro">Ticket List</span></a></li>
-                                <li><a title="Product Edit" href="product-edit.html"><span class="mini-sub-pro">Ticket Edit</span></a></li>
-                                <li><a title="Product Detail" href="product-detail.html"><span class="mini-sub-pro">Ticket Detail</span></a></li>
-                                <li><a title="Product Cart" href="product-cart.html"><span class="mini-sub-pro">Ticket Cart</span></a></li>
-                                <li><a title="Product Payment" href="product-payment.html"><span class="mini-sub-pro">Ticket Payment</span></a></li>
-                                <li><a title="Analytics" href="analytics.html"><span class="mini-sub-pro">Analytics</span></a></li>
+                                <li><a title="Product List" href="product-list.php"><span class="mini-sub-pro">Ticket List</span></a></li>
+                                <li><a title="Product Edit" href="product-edit.php"><span class="mini-sub-pro">Ticket Edit</span></a></li>
+                                <li><a title="Product Detail" href="product-detail.php"><span class="mini-sub-pro">Ticket Detail</span></a></li>
+                                <li><a title="Product Cart" href="product-cart.php"><span class="mini-sub-pro">Ticket Cart</span></a></li>
+                                <li><a title="Product Payment" href="product-payment.php"><span class="mini-sub-pro">Ticket Payment</span></a></li>
+                                <li><a title="Analytics" href="analytics.php"><span class="mini-sub-pro">Analytics</span></a></li>
                             </ul>
                         </li>
                          
                         <li>
                             <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Mailbox</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Inbox" href="mailbox.html"><span class="mini-sub-pro">Inbox</span></a></li>
-                                <li><a title="View Mail" href="mailbox-view.html"><span class="mini-sub-pro">View Mail</span></a></li>
-                                <li><a title="Compose Mail" href="mailbox-compose.html"><span class="mini-sub-pro">Compose Mail</span></a></li>
+                                <li><a title="Inbox" href="mailbox.php"><span class="mini-sub-pro">Inbox</span></a></li>
+                                <li><a title="View Mail" href="mailbox-view.php"><span class="mini-sub-pro">View Mail</span></a></li>
+                                <li><a title="Compose Mail" href="mailbox-compose.php"><span class="mini-sub-pro">Compose Mail</span></a></li>
                             </ul>
                         </li>
                   
@@ -114,8 +114,8 @@
                         <li>
                             <a class="has-arrow" href="" aria-expanded="false"><i class="icon nalika-table icon-wrap"></i> <span class="mini-click-non">Data Tables</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Peity Charts" href="static-table.html"><span class="mini-sub-pro">Static Table</span></a></li>
-                                <li><a title="Data Table" href="data-table.html"><span class="mini-sub-pro">Data Table</span></a></li>
+                                <li><a title="Peity Charts" href="static-table.php"><span class="mini-sub-pro">Static Table</span></a></li>
+                                <li><a title="Data Table" href="data-table.php"><span class="mini-sub-pro">Data Table</span></a></li>
                             </ul>
                         </li>
                   </ul>
@@ -554,6 +554,55 @@
                 </div>
             </div>
         </div>
+            <!-- Mobile Menu start -->
+            <div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul class="mobile-menu-nav">
+                                        <li><a data-toggle="collapse" data-target="#Charts" href="#">Home <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul class="collapse dropdown-header-top">
+                                                <li><a href="index.php">Dashboard</a></li>
+                                                <li><a href="product-list.php">Ticket List</a></li>
+                                                <li><a href="product-edit.php">Ticket  Edit</a></li>
+                                                <li><a href="product-detail.php">Ticket  Detail</a></li>
+                                                <li><a href="product-cart.php">Ticket  Cart</a></li>
+                                                <li><a href="product-payment.php">Ticket  Payment</a></li>
+                                                <li><a href="analytics.php">Analytics</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demo" href="#">Mailbox <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="demo" class="collapse dropdown-header-top">
+                                                <li><a href="mailbox.php">Inbox</a>
+                                                </li>
+                                                <li><a href="mailbox-view.php">View Mail</a>
+                                                </li>
+                                                <li><a href="mailbox-compose.php">Compose Mail</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li><a data-toggle="collapse" data-target="#Chartsmob" href="#">Charts <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                        </li>
+                                        
+                                        <li><a data-toggle="collapse" data-target="#Tablesmob" href="#">Tables <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Tablesmob" class="collapse dropdown-header-top">
+                                                <li><a href="static-table.html">Static Table</a>
+                                                </li>
+                                                <li><a href="data-table.html">Data Table</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu end -->
         <div class="section-admin container-fluid">
             <div class="row admin text-center">
                 <div class="col-md-12">
@@ -1037,6 +1086,9 @@
     <!-- wow JS
 		============================================ -->
     <script src="js/wow.min.js"></script>
+   <!-- price-slider JS
+		============================================ -->
+    <script src="js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
 		============================================ -->
     <script src="js/jquery.meanmenu.js"></script>
@@ -1066,13 +1118,10 @@
     <script src="js/calendar/moment.min.js"></script>
     <script src="js/calendar/fullcalendar.min.js"></script>
     <script src="js/calendar/fullcalendar-active.js"></script>
-	<!-- float JS
+    <!-- float JS
 		============================================ -->
     <script src="js/flot/jquery.flot.js"></script>
     <script src="js/flot/jquery.flot.resize.js"></script>
-    <script src="js/flot/jquery.flot.pie.js"></script>
-    <script src="js/flot/jquery.flot.tooltip.min.js"></script>
-    <script src="js/flot/jquery.flot.orderBars.js"></script>
     <script src="js/flot/curvedLines.js"></script>
     <script src="js/flot/flot-active.js"></script>
     <!-- plugins JS
