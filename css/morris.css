@@ -1,24 +1,25 @@
-.morris-hover {
+.morris-hover
+{
 	position:absolute;
-	z-index:1;
+	z-index:1000
 }
-
-.morris-hover.morris-default-style .morris-hover-row-label {
+.morris-hover.morris-default-style
+{
+	border-radius:10px;
+	padding:6px;color:#666;
+	background:rgba(255,255,255,0.8);
+	border:solid 2px rgba(230,230,230,0.8);
+	font-family:sans-serif;
+	font-size:12px;
+	text-align:center
+}
+.morris-hover.morris-default-style .morris-hover-row-label
+{
 	font-weight:bold;
 	margin:0.25em 0
 }
-.morris-hover.morris-default-style .morris-hover-point {
+.morris-hover.morris-default-style .morris-hover-point
+{
 	white-space:nowrap;
 	margin:0.1em 0
 }
-.morris-hover.morris-default-style {
-    border-radius: 2px;
-    padding: 10px 12px;
-    color: #666;
-    background:rgba(0, 0, 0, 0.7);
-    border: none;
-    color: #fff!important ;
-}
- .morris-hover-point {
-      color: rgba(257, 257, 257, 0.8)!important ;
-   }
