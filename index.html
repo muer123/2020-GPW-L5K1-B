@@ -183,7 +183,7 @@
 							</a>
 						</li>
 						<li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg">
-							<img src="assets/img/avatar/avatar-1.jpeg.jpg" alt="profile-user" class="rounded-circle w-32">
+							<img src="img/head.jpg" alt="profile-user" class="rounded-circle w-32">
 							<div class="d-sm-none d-lg-inline-block">Enemy Lee</div></a>
 							<div class="dropdown-menu dropdown-menu-right">
 								<a href="profile.php" class="dropdown-item has-icon">
