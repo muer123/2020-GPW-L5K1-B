@@ -297,7 +297,7 @@ $(function() {
  		barColors: ['#f47b25', '#5d61bf'],
  		xkey: 'y',
  		ykeys: ['a', 'b'],
- 		labels: ['Front end projects', 'Backend projects'],
+ 		labels: ['Economy tickets', 'Business tickets'],
  		hideHover: 'auto'
  	});
 	/*----DonutChart----*/
@@ -306,13 +306,13 @@ $(function() {
 		resize: true,
 		colors: ['#f47b25', '#5d61bf', '#3ebaef'],
 		data: [{
-			label: "2018",
+			label: "2020",
 			value: 5522
 		}, {
-			label: "2017",
+			label: "2019",
 			value: 3310
 		}, {
-			label: "2016",
+			label: "2018",
 			value: 2250
 		}],
 		hideHover: 'auto'
