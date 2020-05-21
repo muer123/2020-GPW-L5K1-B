@@ -369,16 +369,16 @@
 		</div>
 
 		<!--Jquery.min js-->
-		<script src="assets/js/jquery.min.js"></script>
+		<script src="js/jquery.min.js"></script>
 
 		<!--popper js-->
-		<script src="assets/js/popper.js"></script>
+		<script src="js/popper.js"></script>
 
 		<!--Tooltip js-->
-		<script src="assets/js/tooltip.js"></script>
+		<script src="js/tooltip.js"></script>
 
 		<!--Bootstrap.min js-->
-		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 
 		<!--Jquery.nicescroll.min js-->
 		<script src="assets/plugins/nicescroll/jquery.nicescroll.min.js"></script>
