@@ -1,76 +1,109 @@
+<?php
+
+// make db conection
+require('db.php');
+
+if (isset($_POST['submit'])) {
+    if (empty($_POST['username']) || empty($_POST['password'])) {
+        $error = "username or password is empty";
+    } else { 
+        // Save username & password in a variable
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        // 2. Prepare query
+        $query  = "SELECT username, password "; 
+        $query .= "FROM users ";
+        $query .= "WHERE username = '$username' AND password = '$password' ";
+
+        // 2. Execute query
+        $result = mysqli_query($connection, $query);
+
+        if (!$result) {
+            die("You have entered valid use name and password");
+        }
+
+        // Save data to $row
+        $row = mysqli_fetch_array($result);
+        
+        // Check how many answers did we get
+        $numrows=mysqli_num_rows($result);
+        if ($numrows == 1) {
+            // Start to use sessions
+            session_start();
+            
+            // Create session variables
+            $_SESSION['login_user'] = $username;
+                header('Location: index.php');
+            
+        } else {
+            echo "Login failed";
+        }
+        
+        // 4. free results
+        mysqli_free_result($result);
+    }
+}
+
+// 5. close db connection
+mysqli_close($connection);
+
+?>
+
+<?php
+
+if (isset($error)) {
+    echo "<span>" . $error ."</span>";
+}
+
+?>
+<title>Chengdu Bus Company</title>
+<center>
+    <h2 style="font-family:verdana;color:black;font-size:40px;">Chengdu Bus Company</h2>
+</center>
+  
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>login page</title>
-<meta name="description" content="login page">
-<meta name="keywords" content="login page">
-<link href="wot.css" rel="stylesheet">
-<style>
-	body,p,div,ul,li,h1,h2,h3,h4,h5,h6{
-		margin:0;
-		padding: 0;
-	}
-	#login{
-		width: 400px;
-		height: 250px;
-		background: #FFF;
-		margin:200px auto;
-		position: relative;
-	}
-	#login h1{
-		text-align:center;
-		position:absolute;
-		left:120px;
-		top:-40px;
-		font-size:21px;
-	}
-	#login form p{
-		text-align: center;
-	}
-	#user{
-		background:url(user.png) rgba(0,0,0,.1) no-repeat;
-		width: 200px;
-		height: 30px;
-		border:solid #ccc 1px;
-		border-radius: 3px;
-		padding-left: 32px;
-		margin-top: 50px;
-		margin-bottom: 30px;
-	}
-	#pwd{
-		background: url(pwd.png) rgba(0,0,0,.1) no-repeat;
-		width: 200px;
-		height: 30px;
-		border:solid #ccc 1px;
-		border-radius: 3px;
-		padding-left: 32px;
-		margin-bottom: 30px;
-	}
-	#submit{
-		width: 232px;
-		height: 30px;
-		background: rgba(0,0,0,.1);
-		border:solid #ccc 1px;
-		border-radius: 3px;
-	}
-	#submit:hover{
-		cursor: pointer;
-		background:#D8D8D8;
-	}
-</style>
+<style type="text/css">
+body
+  { 
+    background-image:url(img/background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  </head>
+    </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/loginstyle.css">
 </head>
 <body>
-   
-}
-<div id="login">
-<h1>Company login page</h1>	
-	<form action="user.php" method="post">
-		<p>username：<input type="text" name="username" id="user" placeholder="username"></p>
-		<p>password：<input type="password" name="password" id="pwd" placeholder="password"></p>
-		<p><input type="submit" id="submit" value="login"></p>
-	</form>
-</div>
 
-</body>
+<div id="content">
+    <div class="login-header">
+        <img src="img/logo.jpg">
+        
+    <form action="login.php" method="POST">
+    <div class="login-input-box">
+         <span class="icon icon-user"></span>
+    
+    <input type="text" name="username" placeholder="Please enter your username"> <br/>
+        
+    <input type="password" name="password" placeholder="Please enter your password"> <br/>
+        </div>
+        
+   <div class="login-button-box">        
+    <input type="submit" name="submit" color="darkseagreen" value="Login">
+        </div>
+          </form>
+            <div class="logon-box">
+              <a href="recoverpw.php">Forgot your password?</a>
+            <a href="register.php">Sign up</a>
+          </div>
+        </div>
+    </div>
+    </body>
 </html>
+    

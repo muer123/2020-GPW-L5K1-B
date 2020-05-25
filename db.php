@@ -1,0 +1,20 @@
+<?php
+
+// 1. Open database connection
+    $dbhost = "localhost";
+    $dbuser = "b16b45c83359";
+    $dbpass = "f353276dbc3931ea";
+    $dbname = "l5k1b";
+
+$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+
+// Test if connection is ok
+if (mysqli_connect_errno()) {
+    die("Database connection failed: " .
+        mysqli_connect_error() .
+        "(" . mysqli_connect_errno() . ")"
+        );
+    
+}
+
+?>

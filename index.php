@@ -44,7 +44,7 @@
 		<div id="app">
 			<div class="main-wrapper" >
 				<nav class="navbar navbar-expand-lg main-navbar">
-					<a class="header-brand" href="index.html">
+					<a class="header-brand" href="index.php">
 						<img src="img/logo.jpg" class="header-brand-img" alt="Kharna-Admin  logo">
 					</a>
 					<form class="form-inline mr-auto">
@@ -217,7 +217,7 @@
 					</div>
 					<ul class="side-menu">
 						<li>
-							<a class="side-menu__item" href="index.html"><i class="side-menu__icon fa fa-flask"></i><span class="side-menu__label">Dashboard</span></a>
+							<a class="side-menu__item" href="index.php"><i class="side-menu__icon fa fa-flask"></i><span class="side-menu__label">Dashboard</span></a>
 						</li>
 						<li>
 							<a class="side-menu__item" href="widgets.php"><i class="side-menu__icon fa fa-flask"></i><span class="side-menu__label">Overall</span></a>
@@ -365,7 +365,7 @@
 										<h4>Account Retention</h4>
 									</div>
 									<div class="card-body">
-										<div id="index" class="overflow-hidden h-400 mx-auto text-center " ></div>
+										<div id="index.php" class="overflow-hidden h-400 mx-auto text-center " ></div>
 									</div>
 								</div>
 							</div>

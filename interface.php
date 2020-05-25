@@ -17,8 +17,6 @@
    				<a href="login.php">Login</a>
    				&nbsp;|&nbsp;
    				<a href="register.php">Register</a>
-                &nbsp;|&nbsp;
-			  <a href="logout.php">▶Logout</a>
    				
    				
    			</div>
@@ -113,7 +111,7 @@
   <!--bus schedule-->
            <div class="all2">
            <h4 style="color:#fff">Bus schedule</h4>
-        <iframe style="border:0; background:rgba(255,255,255,0.5);" scrolling="auto" src="http://www.chepiao100.com/application/views/statics/doc/demo/yupiao.php" width="1000" height="544"></iframe>
+        <iframe style="border:0; background:rgba(255,255,255,0.5);" scrolling="auto" href="bus-schedule.php" width="1000" height="544"></iframe>
            </div>
    <!--bus schedule--> 
     <!--my ticket--> 
