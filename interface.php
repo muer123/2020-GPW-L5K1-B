@@ -1,5 +1,5 @@
 <!DOCTYPE html">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>CBC Reservation System</title>
@@ -11,7 +11,7 @@
    <div class="header">
    		<div class="inner">
    			<div class="logo">
-   <a href="interface.html" title="railway ticket"><img src="img/logo.jpg" width="350" height="60"/></a>
+   <a href="interface.php" title="railway ticket"><img src="img/logo.jpg" width="350" height="60"/></a>
    			</div>
    			<div class="headlink">
    				<a href="login.php">Login</a>
@@ -33,7 +33,6 @@
            <a href="#" class="net"><li>Apply for Booking</li></a>
            <a href="#" class="_all2"><li>Bus Schedule</li></a>
            <a href="#" class="_all3"><li>My Ticket</li></a>
-           <a href="#" class="_all4"><li>Change Password</li></a>
            <a href="#" class="_all5"><li>Contact Us</li></a>
          </ul>
        </div>
@@ -104,41 +103,13 @@
 <input name="play" style="width:80px; height:30px; " type="submit" value="Reserve" />
 
 </div>
-<span style="float:right;">Note: note * is required!</span>
 </form>                     
    </div>
-  <!--apply to ticket end--> 
-  <!--bus schedule-->
-           <div class="all2">
-           <h4 style="color:#fff">Bus schedule</h4>
-        <iframe style="border:0; background:rgba(255,255,255,0.5);" scrolling="auto" href="bus-schedule.php" width="1000" height="544"></iframe>
-           </div>
-   <!--bus schedule--> 
-    <!--my ticket--> 
-           <div class="all3">
-           <h4 style="color:#fff">My ticket</h4>
-           
-           </div>
-         <!--my ticket end--> 
-          <!--change password-->    
-           <div class="all4" id="all4">
-           <h4 style="color:#fff">Change password</h4>
-           </div>
-           
-            <!--change password end--> 
-             <!--contact us--> 
-           <div class="all5">
-          <h4 style="color:#fff">☏&nbsp;&nbsp;Contact Us</h4>
-          
-       
-          </div>
-             <!--contact us end--> 
+  <!--apply to ticket end-->     
+    </div>
+       </div>
          </div>
-          <!--guide end-->
-   </div>
-   </div>
-   
-   
+
    <!--middle end-->
 <div class="foot">
       

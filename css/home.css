@@ -1,10 +1,10 @@
-﻿/* CSS Document */
+/* CSS Document */
 @charset  "utf-8";
 
 *{
 	margin: 0;
 	padding: 0;
-	font-family: "微软雅黑";
+	font-family: "Time News Roman";
 }
 a{
 	text-decoration: none;
@@ -19,7 +19,7 @@ textarea::-webkit-input-placeholder,
 -ms-,input-placeholder,
 -o-input-placeholder
  { /* WebKit*/  
-    color: #fff; /*改变placeholder中颜色*/
+    color: #fff; /*change placeholder color*/
 }  
 img{
 	border:0;
@@ -91,7 +91,7 @@ body{
 	
 	box-shadow:2px 0px 20px 1px #333;
 	
-	/*background:linear-gradient(#c0cdd9,#FFF);*//*背景渐变*/
+	/*background:linear-gradient(#c0cdd9,#FFF);*//*background*/
 }
 .middle .cont .class{
 	width:200px;
