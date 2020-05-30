@@ -23,13 +23,6 @@
 
 		<!--Sidemenu css-->
 		<link rel="stylesheet" href="css/sidemenu.css">
-
-		<!--Chartist css-->
-		<link rel="stylesheet" href="css/chartist.css">
-		<link rel="stylesheet" href="css/chartist-plugin-tooltip.css">
-
-		<!--Full calendar css-->
-		<link rel="stylesheet" href="css/stylesheet1.css">
 		
 		<!--morris css-->
 		<link rel="stylesheet" href="css/morris.css">
@@ -86,7 +79,7 @@
 							<a class="nav-link pl-2 pr-2 leading-none d-flex" data-toggle="dropdown" href="#">
 								<img alt="image" src="img/head.jpg" class=" avatar-md rounded-circle">
 								<span class="ml-2 d-lg-block">
-									<span class="text-white app-sidebar__user-name mt-5">Enemy Lee</span><br>
+									<span class="text-white app-sidebar__user-name mt-5">Anna</span><br>
 									<span class="text-muted app-sidebar__user-name text-sm">CBC-Manager</span>
 								</span>
 							</a>
