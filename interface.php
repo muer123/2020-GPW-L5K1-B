@@ -26,17 +26,13 @@
    <!--middle-->
 <div class="middle">
    <div class="cont">
-   <!--menu-->
-       <div class="class">
+         <div class="class">
          <ul>
            <h3 style="color:#FFF;">Column Sorting</h3>
-           <a href="#" class="net"><li>Apply for Booking</li></a>
-           <a href="#" class="_all2"><li>Bus Schedule</li></a>
-           <a href="#" class="_all3"><li>My Ticket</li></a>
-           <a href="#" class="_all5"><li>Contact Us</li></a>
+           <a href="interface.php" class="net"><li>Apply for booking</li></a>
+           <a href="myticket.php" class="_all3"><li>My Ticket</li></a>
          </ul>
        </div>
-       <!--menu end-->
        <!--guide-->
      <div class="class_a">
       <!--Apply for Booking-->
@@ -57,20 +53,40 @@
     <td  width="277.6"><input style="width:250px; background:none;" type="text" /></td>
   </tr>
   <tr>
-    <td width="120">Bus Number:</td>
+    <td width="120">Bus level:</td>
     <td width="277.6"><select  style="width:250px; background:none; border:0; outline:none; color:#CCC">
-      <option>6402</option>
-      <option>8708</option>
-        <option>1018</option>
-       
+      <option>Business</option>
+      <option>Economy</option>
     </select><span>*</span></td>
+     
+     <td width="120">Bus Capacity:</td>
+     <td width="277.6"><select  style="width:250px; background:none; border:0; outline:none; color:#CCC">
+        <option>20</option>
+        <option>30</option>
+        <option>40</option>
+        <option>50</option>
+             
+    </select><span>*</span></td>
+    </tr>
+                 
+    
+    <tr>  
     <td width="120">Origin Station:</td>
      <td width="277.6"><select  style="width:250px; background:none; border:0; outline:none; color:#CCC">
-        <option>Chengdu</option>        
+        <option>Chengdu</option>
+        <option>Jiuzhaigou Valley </option>
+        <option>Ya'an City</option>
+        <option>Daocheng County</option>
+        <option>Kangting</option>
+        <option>Lac Son</option>
+        <option>Kwong</option>
+        <option>Neijiang City</option>
+        <option>Mount Emei</option>
+        <option>Dujiang Dam</option>
+        <option>Conch's Ditch</option>
+        <option>Xilin Snow Hill</option>
     </select><span>*</span></td>
-  </tr>
-                 
-  <tr>
+  
     <td width="120">Terminus:</td>
      <td width="277.6"><select  style="width:250px; background:none; border:0; outline:none; color:#CCC">
         <option>Chengdu</option>
@@ -87,10 +103,23 @@
         <option>Xilin Snow Hill</option>
         
     </select><span>*</span></td>
-      
+    </tr>
+    
+    <tr>
+     <td width="120">Payment:</td>
+     <td width="277.6"><select  style="width:250px; background:none; border:0; outline:none; color:#CCC">
+        <option>Visa</option>
+        <option>WeChat</option>
+        <option>Alipay</option>
+        <option>Credit Card</option>
+        <option>Bank Card</option> 
+        
+    </select><span>*</span></td>
+        
     <td width="120">Date of Departure:</td>
     <td><input  style="width:250px; background:none;" type="datetime-local" /><span>*</span></td>
-  </tr>
+    </tr>             
+                 
   <tr>
     <td>Remarks:</td>
     <td colspan="3">
@@ -99,8 +128,8 @@
 </table>
 <div class="tom" style="margin-top:20px;">
 <input name="clear" style="width:80px; height:30px;" type="reset" value="Empty" />
+<input name="play" style="width:80px; height:30px;" type="submit" value="Reserve" />
 
-<input name="play" style="width:80px; height:30px; " type="submit" value="Reserve" />
 
 </div>
 </form>                     
@@ -112,8 +141,7 @@
 
    <!--middle end-->
 <div class="foot">
-      
-   
+      @2020 Chengdu Bus Company-Collect from CBS
 </div>
 </body>
 <script src="js/jquery.min1.js"></script>

@@ -1,109 +1,112 @@
 <?php
 
-// make db conection
+
 require('db.php');
 
 if (isset($_POST['submit'])) {
     if (empty($_POST['username']) || empty($_POST['password'])) {
         $error = "username or password is empty";
-    } else { 
-        // Save username & password in a variable
-        $username = $_POST['username'];
-        $password = $_POST['password'];
+    } else {
 
-        // 2. Prepare query
-        $query  = "SELECT username, password "; 
-        $query .= "FROM users ";
-        $query .= "WHERE username = '$username' AND password = '$password' ";
+$username = $_POST['username'];
+$password = $_POST['password'];
+$pagelevel= $_POST['level'];
 
-        // 2. Execute query
-        $result = mysqli_query($connection, $query);
 
-        if (!$result) {
-            die("You have entered valid use name and password");
-        }
+$query  = "SELECT username, password, level ";
+$query .= "FROM user ";
+$query .= "WHERE username = '$username' AND password = '$password' ";
 
-        // Save data to $row
-        $row = mysqli_fetch_array($result);
+
+$result = mysqli_query($connection, $query);
+
+if (!$result) {
+    die("query is wrong");
+}
+
         
-        // Check how many answers did we get
-        $numrows=mysqli_num_rows($result);
-        if ($numrows == 1) {
-            // Start to use sessions
-            session_start();
-            
-            // Create session variables
-            $_SESSION['login_user'] = $username;
-                header('Location: index.php');
-            
+$row = mysqli_fetch_array($result);
+$numrows=mysqli_num_rows($result);
+if ($numrows == 1) {
+
+    session_start();
+    
+    $_SESSION['login_user'] = $username;
+    $_SESSION['login_level'] = $row['level'];
+    
+    
+
+    
+       if  ($_SESSION['login_level'] == 1) {
+                    header('location: index.php');
+                } else if ($_SESSION['login_level'] == 2) {
+                    header('location: home1.php');
+                } else if ($_SESSION['login_level'] == 3) {
+                    header('location: home2.php');      
+                } else {
+                    header('location:loginfailed.php');
+            }
+    
         } else {
-            echo "Login failed";
+            header('location:loginfailed.php');
         }
-        
-        // 4. free results
-        mysqli_free_result($result);
+
+mysqli_free_result($result);
     }
 }
 
-// 5. close db connection
 mysqli_close($connection);
-
 ?>
 
-<?php
-
-if (isset($error)) {
-    echo "<span>" . $error ."</span>";
-}
-
-?>
-<title>Chengdu Bus Company</title>
-<center>
-    <h2 style="font-family:verdana;color:black;font-size:40px;">Chengdu Bus Company</h2>
-</center>
-  
-<html>
-<head>
-<style type="text/css">
-body
-  { 
-    background-image:url(img/background.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-  }
-  </head>
-    </style>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/loginstyle.css">
+  <meta charset="utf-8">
+  <title>Login</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/login.css">
 </head>
 <body>
-
-<div id="content">
-    <div class="login-header">
-        <img src="img/logo.jpg">
-        
-    <form action="login.php" method="POST">
-    <div class="login-input-box">
-         <span class="icon icon-user"></span>
-    
-    <input type="text" name="username" placeholder="Please enter your username"> <br/>
-        
-    <input type="password" name="password" placeholder="Please enter your password"> <br/>
-        </div>
-        
-   <div class="login-button-box">        
-    <input type="submit" name="submit" color="darkseagreen" value="Login">
-        </div>
-          </form>
-            <div class="logon-box">
-              <a href="recoverpw.php">Forgot your password?</a>
-            <a href="register.php">Sign up</a>
-          </div>
-        </div>
+<!-- particles.js container -->
+<form action="login.php" method="POST">
+<div id="particles-js" style="display: flex;align-items: center;justify-content: center">
+</div>
+<div class="login-page">
+   <div class="login-content">
+     <div class="login-tit">Login</div>
+     <div class="login-input">
+     <input type="text" name="username" placeholder="username"> 
+     </div>
+     <div class="login-input">
+     <input type="password" name="password" placeholder="password">
     </div>
-    </body>
+    <div class="login-btn">
+      <div class="login-btn-left">
+      <button input type="submit" name="submit">Sign In</button>
+      </div>
+      <div class="login-btn-right" onClick="changeImg()">
+        <img src="img/check.png" alt="" id="picture"> remember passowrd
+      </div>
+    </div>
+   </div>
+</div>
+</form>
+
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script>
+  function changeImg(){
+    let pic = document.getElementById('picture');
+    console.log(pic.src)
+    if(pic.getAttribute("src",2) =="img/check.png"){
+      pic.src ="img/checked.png"
+    }else{
+      pic.src ="img/check.png"
+    }
+  }
+</script>
+</body>
 </html>
-    
